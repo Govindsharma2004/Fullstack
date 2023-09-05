@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            counter-reset: my-counter ;
+            /* counter-reset: my-counter 3; */
+        }
+        h1::before{
+            /* content: "Part" counter(my-counter); */
+            content: "Part " counter(my-counter , upper-alpha);
+            counter-increment: my-counter 1;
+        }
+       h1::after{
+        content: "Part " counter(my-counter , lower-alpha);
+       }
+        
+    </style>
+</head>
+<body>
+    <h1>
+      Heading 1
+    </h1>
+    <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis debitis ullam quam a corporis sunt eaque atque enim, alias recusandae deleniti inventore, esse facilis quis unde ea excepturi perferendis.
+    </p>
+    <h1>
+        Heading 2
+      </h1>
+      <p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis debitis ullam quam a corporis sunt eaque atque enim, alias recusandae deleniti inventore, esse facilis quis unde ea excepturi perferendis.
+      </p>
+      <h1>
+        Heading 3
+      </h1>
+      <p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis debitis ullam quam a corporis sunt eaque atque enim, alias recusandae deleniti inventore, esse facilis quis unde ea excepturi perferendis.
+      </p>
+      <h1>
+        Heading 4
+      </h1>
+      <p>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis debitis ullam quam a corporis sunt eaque atque enim, alias recusandae deleniti inventore, esse facilis quis unde ea excepturi perferendis.
+      </p>
+      
+</body>
+</html>

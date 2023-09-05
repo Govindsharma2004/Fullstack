@@ -1,0 +1,47 @@
+/* ID SEELECTOR */
+#para1{
+    color: red;
+}
+#para2{
+    color: blue;
+}
+/* CLASS SELECTOR */
+.para1{
+    color: green;
+}
+.para2{
+    color: lightcyan;
+}
+.para3{
+    color: skyblue;
+}
+.para4{
+    color: yellow;
+}
+.para5{
+    color: violet;
+}
+/* ELEMENT SELECTOR */
+h1{
+    color: purple;
+    text-align: center;
+}
+
+/* UNIVERSAL SELECTOR */
+*{
+    border: 2px solid red;
+}
+
+/* ATTRIBUTE SELECTOR */
+a[href="https://www.facebook.com/"]{
+    color: gold;
+}
+a[href="https://www.instagram.com/"]{
+    color: red;
+}
+a[href="https://www.google.com/"]{
+    color: blue;
+}
+a[href="https://www.linkedin.com/"]{
+    color: green;
+}

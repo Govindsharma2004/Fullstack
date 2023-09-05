@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Form</title>
+</head>
+<body>
+    <form method="" action="" >
+        <table align="center" style="height: fit-content; width: fit-content; border: 2px solid red;">
+            <tr>
+        <td><label for="usernames">Username:</label></td>
+        <td><input type="text" placeholder="First Name">
+        <input type="text" placeholder="Middle Name">
+        <input type="text" placeholder="Last Name"></td>
+        </tr>
+        <tr>
+        <td>
+        <label for="gender">Gender:</label>
+        </td>
+        <td>
+        <input type="radio" name="gender" value="Male" placeholder="male">Male 
+        <input type="radio" name="gender" value="Female" placeholder="male">Female
+    </td>
+    </tr>
+    <tr>
+        <td>
+    <label for="courses" name="course">Course:</label>
+</td>
+<td>
+        <select name="course" id="course">
+            <option value="">Choose Course</option>
+            <option value="Btech">B-Tech</option>
+            <option value="Diploma">Diploma</option>
+            <option value="BCA">BCA</option>
+            <option value="BBA">BBA</option>
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+        </select>
+        </td>
+        </tr>
+        <tr>
+            <td>
+        <label for="phone">Phone:</label></td>
+        <td>
+        <input type="number" name="phone" placeholder="Enter your Phone No"></td>
+        </tr>
+        <tr>
+            <td>
+        <label for="email">Email:</label></td>
+        <td>
+        <input type="email" name="email" placeholder="Enter your email address"></td>
+        </tr>
+        <tr>
+            <td>
+                <label for ="dob">Date_Of_Birth:</label>
+            </td>
+            <td>
+                <input type="date" name="dob" placeholder="Enter your DOB">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for ="address">Address:</label>
+            </td>
+            <td>
+                <textarea name="address" placeholder="Enter Your Address" rows="5" cols="21"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for ="file_upload">Photo:</label>
+            </td>
+            <td>
+                <input type="file" name="file_upload" placeholder="Upload your Photo">
+            </td>
+        </tr>
+        <tr>
+            <td>
+        <label for="password">Password:</label></td>
+        <td>
+        <input type="password" placeholder="Password"></td></tr>
+        <tr>
+            <td>
+        <label for="password"> Confirm Password:</label></td>
+        <td>
+        <input type="password" placeholder=" Confirm Password"></td></tr>
+        <tr>
+            <td colspan="2">
+                <br>
+        <button  type="reset" style="margin-left: 7em;">Clear</button>
+        <button  type="submit">Submit</button>
+        </td>
+        </tr>
+        </table>
+       </form>
+    
+</body>
+</html>
